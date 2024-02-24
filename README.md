@@ -25,3 +25,6 @@ Once Openslide is installed, you can proceed with the installation of Openslide 
 > `OSError: libopenslide.so.0: cannot open shared object file: No such file or directory`.
 > In this case, you can somewhat naively modify the `lowlevel.py` file and change the instruction
 > `else: _lib = cdll.LoadLibrary('libopenslide.so.0')` to load the file.
+
+
+Another possible solution is the one provided by [dArkyunn](https://github.com/dArkyunn) [here](#), but it would require further testing.
