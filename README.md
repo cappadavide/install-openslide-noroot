@@ -27,4 +27,4 @@ Once Openslide is installed, you can proceed with the installation of Openslide 
 > `else: _lib = cdll.LoadLibrary('libopenslide.so.0')` to load the file.
 
 
-Another possible solution is the one provided by [dArkyunn](https://github.com/dArkyunn) [here](#), but it would require further testing.
+Another possible solution is the one provided by [dArkyunn](https://github.com/dArkyunn) [here](install_openslide_apt.sh), but it would require further testing.
